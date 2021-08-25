@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--The HTML <img> tag is used to embed an image in a web page
+    The <img> tag is empty, it contains attributes only, and does not have a closing tag.
+    The <img> tag has two required attributes:
+    src - Specifies the path to the image
+    alt - Specifies an alternate text for the image
+    Syntax
+        <img src="url" alt="alternatetext">
+    -->
+    <img src="image/html5.gif" alt="html5"><br>    <!--If image in same directory-->
+    <img src="/image/html5.gif" alt="html5"><br>     <!--If image in other directory-->
+    <img src="../image/html5.gif" alt="html5">       <!--No matter if image in same or other directory-->
+    <hr>
+    <!--the alt text are shown if the browser cannot find the image-->
+    <p>this is "alternatetext"</p>
+    <img src="../images/html5.gif" alt="html5"><br>
+    <hr>
+    <img src="../image/pencil.webp" alt="pencil">
+    <p>use 'style' attribute with "width" and "hight" property</p>        
+    <img src="../image/pencil.webp" alt="pencil" style="width: 520px;height: 318px;">
+    <hr>
+    <!--To point to an image on another server, you must specify an absolute (full) URL in the src attribute-->
+    <img src="https://media.istockphoto.com/photos/magic-lotus-flower-with-fairy-light-miracle-and-mystery-concept-picture-id1248305561" width="720px" height="520px" alt="magic magic-lotus-flower-with-fairy-light-miracle-and-mystery-concept-picture-id1248305561">
+</body>
+</html>
